@@ -33,22 +33,41 @@
               <li><a href="#about" class="scroll-link">about</a></li>
               <li><a href="#services" class="scroll-link">services</a></li>
               <li><a href="#contact" class="scroll-link">contact</a></li>
+              <li><a href="#contact" class="scroll-link">Place Order</a></li>
             </ul>
           </div>
         </div>
       </nav>
+      <div class="banner-wrap">
+        <div class="home-slider">
+          <div class="home-slide">
+            <img src="./images/chickenFlock.jpg" alt="">
+          </div>
+          <div class="home-slide">
+            <img src="./images/1.jpg" alt="">
+          </div><div class="home-slide">
+            <img src="./images/2.jpg" alt="">
+          </div><div class="home-slide">
+            <img src="./images/3.jpg" alt="">
+          </div><div class="home-slide">
+            <img src="./images/4.jpg" alt="">
+          </div><div class="home-slide">
+            <img src="./images/5.jpg" alt="">
+          </div><div class="home-slide">
+            <img src="./images/6.jpg" alt="">
+          </div>
+        </div>
       <!-- banner -->
       <div class="banner">
         <div class="container">
           <h1>LUROKU ENTERPRISE</h1>
           <h3>Poultry For Health</h3>
-          <p>
-           We are here to serve the best because you deserve the best.
-          </p>
-          <a href="#about" class="scroll-link btn btn-white"
-            >Find out more</a>
-          
+         
+            <!-- <a href="#about" class="scroll-link btn btn-white"
+              >Find out more</a> -->
+            
         </div>
+      </div>
       </div>
     </header>
 
@@ -175,7 +194,61 @@
         <h2>contact <span>us</span></h2>
 
         <div class="contact-section">
-          <form>
+          <!--  lqe8ad66aqgkmwsqw3f4t2oz -->
+        
+<!-- <form action="http://postmail.invotes.com/send"
+    method="post" id="email_form">
+
+    <input type="text" name="subject" placeholder="Subject" />
+    <textarea name="text" placeholder="Message"></textarea>
+    <input type="hidden" name="access_token" value="lqe8ad66aqgkmwsqw3f4t2oz" />
+     
+    <input type="hidden" name="success_url" value="." />
+    <input type="hidden" name="error_url" value=".?err=1" />
+    
+    <input id="submit_form" type="submit" value="Send" />
+    
+</form>
+     -->
+<form action="https://postmail.invotes.com/send"
+    method="post" id="email_form">
+
+    <input type="text" name="subject" placeholder="Subject" />
+    <input type="text" name="extra_FullName"
+                placeholder="Full Name" /> 
+                <input type="text" name="extra_phone_number"
+                placeholder="Phone Number" /> 
+                <input type="text" name="extra_email"
+                placeholder="Your Email" /> 
+    <textarea name="text" placeholder="Message"></textarea>
+    <input type="hidden" name="access_token" value="lqe8ad66aqgkmwsqw3f4t2oz" />
+      <!-- return urls can be fully qualified -OR-
+         start with / for root relative -OR-
+         start with . for url relative --> 
+    <input type="hidden" name="success_url" value="https://gabriel-wealth.github.io/my-sample-site/#home" />
+    <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+   
+
+    <!-- set the reply-to address -->
+    <!-- <input type="text" name="reply_to"
+                placeholder="Your Email" /> -->
+
+    <!-- to append extra fields, use the extra_ prefix.
+        Entries will be appended to your message body. -->
+    <!-- <input type="text" name="extra_phone_number"
+                placeholder="Phone Number" /> -->
+
+    <!-- to split your message into 160 chars
+         for an sms gateway -->
+    <!-- <input type="hidden"
+                name="sms_format" value="true" /> -->
+   
+    <input id="submit_form" type="submit" value="Send" />
+    <!-- not required, but we'd appreciate it if you'd link to us somewhere on your site -->
+   
+</form>
+     
+          <!-- <form>
             <div class="input-group">
               <input type="text" id="name" required />
               <label for="name"><i class="fas fa-user"></i> Your Name</label>
@@ -201,17 +274,18 @@
             <button type="submit">
               SEND<i class="fas fa-paper-plane"></i>
             </button>
-          </form>
+          </form> -->
         </div>
       </div>
     </section>
     <!-- footer -->
     <footer class="section">
-      <!-- <hr> -->
-      <div class="social-icons">
+      <div class="footer-sections">
+        <div class="social-icons">
+        <h3>Follow Us</h3>
         <ul class="social-med">
           <li>
-            <a href="#"><img src="./images/facebook.png" alt="" /></a>
+            <a href="https://www.facebook.com/lurokuenterprise" target="_blank"><img src="./images/facebook.png" alt="" /></a>
           </li>
           <li>
             <a href="#"><img src="./images/twitter.png" alt="" /></a>
@@ -220,17 +294,35 @@
             <a
               href="https://wa.me/256787258732?"
               target="_blank"
-              ><img src="./images/whatsappb.png" width="40" height="40" alt=""
+              ><img src="./images/whatsapp.png" width="40" height="40" alt=""
             /></a>
           </li>
           <li>
-            <a href="#"><img src="./images/instagram.png" alt="" /></a>
+            <a href="https://www.instagram.com/lurokuenterprise"target="_blank"><img src="./images/instagram.png" alt="" /></a>
           </li>
         </ul>
       </div>
+      <div class="location">
+        <p>Location</p>
+        <p>Ntinda, Naalya Road</p>
+        <p>Kampala, Uganda</p>
+        <p>Mob. <a href="tel:+256756530688">+256756530688</a></p>
+      
+        <p>Email Us : <a href="mailto:lorukuenterprise@gmail.com">lorukuenterprise@gmail.com</a> </p>
+        
+      </div>
+      <div class="workdays">
+        <p>Opening Hours</p>
+        <p>  Monday - Friday : 8:00am - 6:00pm</p>
+        <p>  Saturday : 9:00am - 4:00pm</p>
+        <p>  Sunday and Public Holidays : Closed</p>
+      </div>
+      </div>
+      
+      <hr>
       <p>
         copyright &copy; LUROKU ENTERPRISE. <span id="date">1000</span> ALL
-        RIGHTS RESERVED. Site designed by Gabriel Ekodo
+        RIGHTS RESERVED. 
       </p>
     </footer>
     <!-- back to top button -->
